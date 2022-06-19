@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    display:none ;
+    background-color:rgb(244, 250, 250);
+}
+.dropdown-content{ 
+    position: absolute;
+    
+    min-height:px;
+    padding-left:10px;
+    z-index:1;
+    color:black;
+    background-color:rgb(28, 29, 29);
+    text-decoration:none;
+    width:850px;
+    text-align: center;
+}
+ .links{
+     text-decoration: none;
+     color:black;
+      
+     display: block;
+     padding:10px;
+     padding-left:350px;
+     font-weight: bold;
+     color:cadetblue;
+    }
+.onit{
+    position: relative;
+}
+.writeon{
+    position: absolute;
+    top:350px;
+    left:150px;
+    font-size: large;
+}
+#quote{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    float:right;
+    margin-right: 60px; 
+}
+.gallery{
+    background-color: white;
+    margin-left: 20px;
+}
+#sp{
+padding-left: 10px;
+}
+#move{
+ margin-left: 118px; 
+ margin-bottom:px;
+ color:white
+}
+#sub{
+  background-color: burlywood;
+  border-radius: 4px;
+  border:2px aliceblue;
+  color:aliceblue;
+  padding:5px 8px 5px 8px;  
+}
+#tp{
+    margin: auto 120px auto 20px;
+}
+#under{
+    margin: auto 120px auto 20px;   
+}
+.oni{
+    position: relative;
+}
+.writeo{
+    position: absolute;
+    top:2px;
+    left:10px;
+    font-size: large;
+    color:white;
+    padding-left:20px
+}
+#nav{
+    float: right;
+    margin-right:-120px;
+    height:20px;
+     width:20px;
+}
+#na{
+    height:20px;
+     width:20px;
+     margin-left: -25px;
+     margin-top:-95px;
+}
+#n{
+    width:20px;
+    height:20px;
+    float: right;
+    margin-right: -95px;
+}
+#side{
+   margin:10px 0px 0px 2px; 
+}
+.oni{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    
+}
