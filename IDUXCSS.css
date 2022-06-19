@@ -1,0 +1,62 @@
+.home{
+    position: relative;
+}
+.what{
+    position: absolute;
+    top:78%;
+    left:31%;
+    color:white;
+    font-size: xx-large;
+    background-color: blue;
+    border-radius: 7px;
+    padding:20px 128px 20px 128px;
+    
+}
+.slideup{
+    display:none;
+}
+.onit{
+    position: relative;
+}
+.writeon{
+    position: absolute;
+    top:0%;
+    left:2%;
+    color:white;
+    font-size: large;
+}
+.learn{
+ text-decoration: none;
+ color:white;
+ font-size: large;
+ text-align: center;
+ background-color: blue;
+ padding:10px;
+ margin-left: 98px;
+ border-radius: 5px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    display: none;
+}
+.dropdown-content{ 
+    position: absolute;
+    display:none;
+    min-height:960px;
+    padding:12px 6px;
+    z-index:1;
+    color:black;
+    background-color: white;
+    text-decoration:none;
+    width:850px;
+    display: none;
+}
+ .links{
+     text-decoration: none;
+     color:black;
+     background-color: white; 
+     display: block;
+     padding:10px;
+    }
+     
