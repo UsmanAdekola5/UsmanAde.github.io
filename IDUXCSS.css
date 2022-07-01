@@ -12,18 +12,63 @@
     padding:20px 128px 20px 128px;
     
 }
+@media screen and (min-width:1024px){}
+#change{
+   height: 390px; 
+}
+h2{
+    color:blue;
+}
+
+}
+
+
 .slideup{
-    display:none;
+    visibility: visible;
 }
 .onit{
     position: relative;
+    height: ;
+}
+.write{
+    position: absolute;
+    top:28%;
+    left:32%;
+
+}
+#head{
+    color: white;
+    font-size:4.1em;
+    font-weight: bold;
+}
+#hea{
+    color:rgb(238, 59, 59);
+    font-size: large;
+    font-weight: bold;
+    background-color:rgb(16, 16, 214);
+    border-radius: 4px;
+    padding-left: -8px;
+    padding-right:-8px;
+}
+#wedo{
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    padding: 15px;
+    background-color:rgb(34, 34, 65);
+    top:75%;
+    left:40%;
+    position: absolute;
+    border-radius: 4px;
 }
 .writeon{
     position: absolute;
     top:0%;
     left:2%;
     color:white;
-    font-size: large;
+    font-size:1.3em;
+    padding-left:20px;
+    padding-right:20px ;
 }
 .learn{
  text-decoration: none;
@@ -32,8 +77,9 @@
  text-align: center;
  background-color: blue;
  padding:10px;
- margin-left: 98px;
+ margin-left:auto;
  border-radius: 5px;
+
 }
 .dropdown{
     position: relative;

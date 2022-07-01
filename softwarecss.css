@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
 }
+@media screen and(min-width:768px){
+  #cli{display: none;}
+  .dropdown-content{display: inline;}  
+}
+
+
+
 .dropdown{
     position: relative;
     display: inline-block;
@@ -34,19 +41,46 @@
 }
 .writeon{
     position: absolute;
-    top:350px;
-    left:150px;
+    top:140px;
+    left:50px;
     font-size: large;
 }
 #quote{
-    background-color: blue;
+    background-color:blue;
     color:white;
     border-radius: 5px;
-    padding: 10px;
+    padding:4px;
     text-decoration: none;
     float:right;
-    margin-right: 60px; 
+    margin:auto; 
+    
+
 }
+.colo{
+    background-color:rgb(51, 51, 73);
+    color:white;
+    font-size:1.1em;
+}
+@media screen and (max-width:767px){
+#quote{
+    float:right;
+    padding:6px;
+    width:40%;
+};
+};
+
+@media screen and (max-width:991px){
+  #hide{
+      display: none;
+      color: cyan;
+  }  
+}
+
+@media screen and(min-width:768px){
+   #adj{margin-left: 400px;} 
+}
+
+
 .gallery{
     background-color: white;
     margin-left: 20px;
@@ -56,15 +90,21 @@ padding-left: 10px;
 }
 #move{
  margin-left: 118px; 
- margin-bottom:px;
- color:white
+ margin-bottom:60px;
+ color:white;
+ float: right;
+ height:40px;
+ width:120px;
+ background-color: black;
+ border:1.5px solid white;
 }
 #sub{
-  background-color: burlywood;
+  background-color: rgb(128, 124, 120);
   border-radius: 4px;
   border:2px aliceblue;
   color:aliceblue;
-  padding:5px 8px 5px 8px;  
+  padding:5px 40px;
+  font-size: large;  
 }
 #tp{
     margin: auto 120px auto 20px;
@@ -108,6 +148,41 @@ padding-left: 10px;
     animation-name: example;
     animation-duration: 4s;
 }
-@keyframes example{
-    
+#em{
+    width: 100%;
+    height: 45px;
+    padding:5px;
+    border:1.5px solid white; 
+    color:thistle;
+    background-color: black; 
+}
+
+@media screen and (max-width:768px){
+    #ad{
+        padding-left: -20px;
+    }
+}
+
+#adjust{
+    margin-left: 20px;
+    width: 30px;
+}
+#Math{
+    color:white;
+    font-weight: bolder;
+    font-size: x-large; 
+}
+
+#lastline{
+  color:white;
+  text-align: center;
+}
+@media screen and (max-width:992px){
+   #si{
+       display:inline-flex;
+   }
+   #mo{
+       padding-left: 20px;
+       font-size: smaller;
+   }
 }
