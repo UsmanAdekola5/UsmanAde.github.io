@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*My own added section*/
 #quote{
-  background-color:blue;
+  background-color:rgb(138, 138, 236);
   color:white;
   border-radius: 5px;
   padding:4px;
@@ -135,312 +135,24 @@ text-align: center;
   }
 
 /*slider*/
-/*Slideshow container*/
-#slider {
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  margin: 0 auto;
-}
-
-.rslides_tabs {
-  list-style: none;
-  padding: 0;
-  background: rgba(0, 0, 0, .25);
-  box-shadow: 0 0 1px rgba(255, 255, 255, .3), inset 0 0 5px rgba(0, 0, 0, 1.0);
-  -moz-box-shadow: 0 0 1px rgba(255, 255, 255, .3), inset 0 0 5px rgba(0, 0, 0, 1.0);
-  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .3), inset 0 0 5px rgba(0, 0, 0, 1.0);
-  font-size: 18px;
-  list-style: none;
-  margin: 0 auto 50px;
-  max-width: 540px;
-  padding: 10px 0;
-  text-align: center;
-  width: 100%;
-}
-
-.rslides_tabs li {
-  display: inline;
-  float: none;
-  margin-right: 1px;
-}
-
-.rslides_tabs a {
-  width: auto;
-  line-height: 20px;
-  padding: 9px 20px;
-  height: auto;
-  background: transparent;
-  display: inline;
-}
-
-.rslides_tabs li:first-child {
-  margin-left: 0;
-}
-
-.rslides_tabs .rslides_here a {
-  background: rgba(255, 255, 255, .1);
-  color: #fff;
-  font-weight: bold;
-}
-
-.events {
-  list-style: none;
-}
-
-.callbacks_container {
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-.callbacks {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-.callbacks li {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.callbacks img {
-  position: relative;
-  z-index: 1;
-  height: auto;
-  border: 0;
-}
-
-.callbacks .caption {
-  display: block;
-  position: absolute;
-  z-index: 2;
-  font-size: 20px;
-  text-shadow: none;
-  color: #fff;
-  left: 0;
-  right: 0;
-  padding: 10px 20px;
-  margin: 0;
-  max-width: none;
-  top: 10%;
-  text-align: center;
-}
-
-.callbacks_nav {
-  position: absolute;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  top: 48%;
-  left: 40px;
-  opacity: 0.7;
-  z-index: 3;
-  text-indent: -9999px;
-  overflow: hidden;
-  text-decoration: none;
-  height: 64px;
-  width: 64px;
-  background: url("../images/left-arrow.png") no-repeat 0px 0px;
-}
-
-.callbacks_nav.next {
-  left: auto;
-  background: url("../images/right-arrow.png") no-repeat 0px 0px;
-  right: 40px;
-}
-
-.callbacks_nav:active {
-  opacity: 1.0;
-}
-
-.callbacks2_nav:active {
-  opacity: 1.0;
-}
-
-#slider-pager a {
-  display: inline-block;
-}
-
-#slider-pager span {
-  float: left;
-}
-
-#slider-pager span {
-  width: 100px;
-  height: 15px;
-  background: #fff;
-  display: inline-block;
-  border-radius: 30em;
-  opacity: 0.6;
-}
-
-#slider-pager .rslides_here a {
-  background: #FFF;
-  border-radius: 30em;
-  opacity: 1;
-}
-
-#slider-pager a {
-  padding: 0;
-}
-
-#slider-pager li {
-  display: inline-block;
-}
-/*ul class*/
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  left: 0%;
-  top: 0;
-  width: 100%;
-}
-
-.rslides li {
-  position: relative;
-  display: block;
-  float: none;
-}
-
-.rslides img {
-  height: auto;
-  border: 0;
-}
 
 
-
-
-.callbacks_tabs {
-  list-style: none;
-  position: absolute;
-  top: 80.5%;
-  z-index: 999;
-  left: 44.5%;
-  padding: 0em 0.6em 1em 0.3em;
-  margin: 0;
-}
-
-.callbacks_tabs li {
-  display: inline-block;
-  margin: 0.5em;
-}
-
-.callbacks_tabs a {
-  visibility: hidden;
-}
-
-.callbacks_tabs a:after {
-  content: "\f111";
-  font-size: 0;
-  font-family: FontAwesome;
-  visibility: visible;
-  display: block;
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  background: #fff;
-  border: none;
-  border-radius: 50%;
-}
-
-.callbacks_here a:after {
-  background: #E33733;
-}
-
-.slider-info {
-  position: absolute;
-  top: 0;
-  z-index: 999;
-  left: 229px;
-  width: 100%;
-  height: 100%;
-  padding-top: 350px;
-}
-
-.slider-info img {
-  width: 100px;
-  margin: 0 auto;
-}
-
-.slider-info h3 {
-  font-size: 28px;
-  font-weight: 900;
-  color: #FFF;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin: 2px 0px 10px;
-}
-
-.slider-info p {
-  font-size: 15px;
-  font-weight: 100;
-  color: #d3d8d8;
-  margin: 0 auto 50px;
-  line-height: 35px;
-}
-
-.italic {
-  font-size: 25px;
-  color: #ddd;
-  font-family: 'Courgette', cursive;
-}
-
-.slider-info h4 {
-  font-size: 30px;
-  color: #E33733;
-  letter-spacing: 3px;
-  text-transform: none;
-  margin-top: 7px;
-}
-
-h6 {
-  margin: 0 auto;
-  z-index: 999;
-}
-
-h6 a {
-  cursor: pointer;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
-.callbacks_tabs {
-  list-style: none;
-  position: absolute;
-  bottom: -39%;
-  left: 13.4%;
-  padding: 0;
-  margin: 0;
-  z-index: 990;
-  display: block;
-  text-align: center;
-}
-
-.slider-top span {
-  font-weight: 600;
-}
-
-.callbacks_tabs li {
-  display: inline-block;
-  margin: 0 7px;
+#mystery{
+  padding-top:180px;
+  font-size:24px;
+  color:white;
 }
 
 /*slider end*/
 
+/*section*/
+section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+section {
+  scroll-margin-top: 70px;
+}
 
 
 
@@ -561,7 +273,7 @@ h6 a {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.1);
+  background:rgba(5,87,158,0.9);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
@@ -815,7 +527,7 @@ h6 a {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+ /* background: url("../img/hero-bg.jpg") top center;*/
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -854,6 +566,7 @@ h6 a {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: x-large;
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
@@ -930,7 +643,8 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
-  font-style: italic;
+  font-style:italic;
+  font-size:18px;
 }
 
 /*--------------------------------------------------------------
@@ -2488,3 +2202,4 @@ section {
 #footer .credits a {
   color: #f6b024;
 }
+
