@@ -4,12 +4,17 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta http-equiv="refresh" content="" >
 
-<style>
 
-    
-</style>
+<!-- Vendor CSS Files -->
+<!--<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">-->
 
+
+ <!-- Main CSS Files -->
 <link rel="stylesheet" type="text/css" href="assets/css/collegerelieffundhome_css.css">
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -17,21 +22,57 @@
 
 <body>
 
-<div class='container-fluid' style="background-color: black;">    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <div class="row">
+            <!--dropdown-->
+         <div class="dropdown">
+        <img src="assets/img/button.png" class="img-responsive" alt="togglehere">
+        <img src="assets/img/cancel.png" class="img-responsive" alt="cancelhere">
+        
+        <div class="dropdown-content">
+        <a  class="active" href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog/News</a>
+        </div>
+        </div>
+         </div>
+       <!--- <a class="navbar-brand" href="https://www.fb.com">Logo</a>
+        </div>
+        <div class="collapse navbar-collapse" id="#myNavbar">
+        <ul class="nav navbar-nav">
+        <li><a class="active" href="https://www.fb.com">Home</a></li>
+        <li><a href="https://www.fb.com">About</a></li>
+        <li><a href="https://www.fb.com">Contact</a></li>
+        <li><a href="https://www.fb.com">Projects</a></li>
+        </ul>-->
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.fb.com"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+        </ul>
+        </div>
+        </div>  
+        </nav>
+
+<!--<div class='container-fluid' style="background-color: black;">    
 <div class="row">
-<img  id="tog" src="assets/img/button.png" class="img-responsive" alt="togglehere" style="margin-left: 40px;margin-top:20px"> 
-<img id="cancel" src="assets/img/cancel.png" class="img-responsive" alt="cancel" width="50px" style="margin-left: 40px;margin-top:-34px;display: none;">   
-<div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4">
-<div class="dropdown">
-<div class="dropdown-content container-fluid">
-<a class='active' href="#">Home</a>
-<a href="#">Dashboard</a>
-<a href="#">About CRF</a>
+    <!--dropdown-->
+ <!--<div class="dropdown col-lg-12">
+<img src="assets/img/button.png" class="img-responsive" alt="togglehere">
+<img src="assets/img/cancel.png" class="img-responsive" alt="cancelhere">
+
+<div class="dropdown-content">
+<a  class="active" href="#">Home</a>
+<a href="#">Contact</a>
+<a href="#">About Us</a>
 <a href="#">Blog/News</a>
-<a href="#">Contact CRF</a>
 </div>
 </div>
-</div>
+ </div>
 
 <div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4">
 <img src='assets/img/college.png' alt="CRF" class="" width="28%"  > 
@@ -45,18 +86,13 @@
 
 
 </div>
-</div>
+</div>-->
 
 
 
 
 <script>
-$(document).ready(function(){
-$("#tog").click(function(){
-$(".dropdown-content").slideDown();
-$("#cancel").show();    
-})    
-})
+
 </script>
 
 
@@ -265,16 +301,43 @@ HND 1 for polytechnics/<br>Monotechnics etc.<br>
 </div><br><br>
 </div>
 
-<div class="container-fluid">
+<!--slider section-->
+<div class="slider-frame">
+<div class="slide-images">
+    <div class="img-container">
+        <a  href="https://www.scheinberg.com"><img src="assets/img/scheinberg.png" alt="scheinberg"></a>
+    </div>
+    <div class="img-container">
+        <a  href="https://www.afdc.com"><img src="assets/img/afcd.png" alt="scheinberg"></a>
+    </div>
+    <div class="img-container">
+        <a  href="https://www.growfund.com"><img src="assets/img/growfund.png" alt="scheinberg"></a>
+    </div>
+    <div class="img-container">
+        <a  href="https://www.saintagnes.com"><img src="assets/img/saintagnes.png" alt="scheinberg"></a>
+    </div>
+    <div class="img-container">
+        <a  href="https://www.usaid.com"><img src="assets/img/usaid.png" alt="scheinberg"></a>
+    </div>
+</div>
+
+</div>
+
+<!-- End Slider Section -->
+
+
+
+
+<!--<div class="container-fluid">
 <div class="orange">
     Our Top Funders & Patners
-    <a id="sch" href="https://www.scheinberg.com"><img src="scheinberg.png" alt="scheinberg"> </a><a id=afdc href="https://www.afdc-org"><img src="afcd.png" alt="afdc"> </a>
+    <a id="sch" href="https://www.scheinberg.com"><img src="assets/img/scheinberg.png" alt="scheinberg"> </a><a id=afdc href="https://www.afdc-org"><img src="afcd.png" alt="afdc"> </a>
     
-    <a id="gf" href=" https://www.growfund.com"><img src="growfund.png" alt="growfund"></a>
-    <a id="sagns" href="https://www.saintagnesfoundation.com"><img src="saintagnes.png" alt="saintagnes"></a>
-    <a id="usa" href="https://www.usaid.com"><img src="usaid.png" alt="usaid"></a>
+    <a id="gf" href=" https://www.growfund.com"><img src="assets/img/growfund.png" alt="growfund"></a>
+    <a id="sagns" href="https://www.saintagnesfoundation.com"><img src="assets/img/saintagnes.png" alt="saintagnes"></a>
+    <a id="usa" href="https://www.usaid.com"><img src="assets/img/usaid.png" alt="usaid"></a>
 </div><br><br>
-</div>
+</div>-->
 
 <div class="container">
 
