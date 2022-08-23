@@ -316,9 +316,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/Ade's class (4).jpg") top right;
+  background-image: url("../img/Ade\'s\ class\ \(4\).jpg") top right;
   background-size: cover;
   position: relative;
+  background-repeat: repeat;
 }
 
 #hero:before {

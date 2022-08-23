@@ -12,6 +12,7 @@
 #gr{
   color:lightgreen;
 }
+/*Navbar*/
 .navbar{
   margin-bottom: 0;
   border-radius: 0;
@@ -20,8 +21,10 @@
   padding:15px;
   
 }
+/*navbar end*/
+
 #cyan{
-  color: cyan;
+  color:lightgreen;
 }
 .n{
   color: white;
@@ -29,4 +32,7 @@
 }
 #wh{
   color: white;
+}
+@keyframes example{
+  cu
 }

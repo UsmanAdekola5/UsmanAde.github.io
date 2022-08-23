@@ -40,6 +40,10 @@ position: relative;
     border-radius: 4px;
     padding:10px 14px;
 }
+#b{
+  color: blue;
+  list-style-type:georgian;
+}
 #large{
   font-size: larger;
 }
